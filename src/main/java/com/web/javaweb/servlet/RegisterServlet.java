@@ -17,7 +17,7 @@ import java.util.ArrayList;
  * </p>
  * @author jyzxc
  */
-@WebServlet(name = "RegisterServlet", value = "/register-servlet")
+@WebServlet(name = "RegisterServlet", value = "/jsp/register-servlet")
 public class RegisterServlet extends HttpServlet {
 
     // 模拟一个用户列表来存储已注册的用户信息
@@ -49,7 +49,7 @@ public class RegisterServlet extends HttpServlet {
         if (errorMessage != null) {
             // 如果有错误信息，设置到request属性并转发回页面
             request.setAttribute("error", errorMessage);
-            request.getRequestDispatcher("/").forward(request, response);
+            request.getRequestDispatcher("/jsp/index.jsp").forward(request, response);
             return;
         }
 
@@ -64,6 +64,6 @@ public class RegisterServlet extends HttpServlet {
         users.add(newUser);
 
         request.setAttribute("users", users);
-        request.getRequestDispatcher("/").forward(request, response);
+        request.getRequestDispatcher("/jsp/index.jsp").forward(request, response);
     }
 }

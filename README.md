@@ -33,3 +33,15 @@ http://localhost:8080/javaWeb_war_exploded/jsp/index.jsp
 http://localhost:8080/javaWeb_war_exploded/jsp/student.jsp
 
 ## 作业四
+
+编写一个文件资源下载的程序，该程序的提供各种文件的下载以及链接，要求用户点击后可以下载相关文件。所有下载链接应具有防盗链下载的功能，用户必须从下载页面才能进行下载。
+
+效果在：
+
+http://localhost:8080/javaWeb_war_exploded/jsp/file.jsp
+
+编写一个用户输入的验证码程序。页面可以随机生成相关验证信息（数字信息或图像信息均可）,根据用户的录入判断是否验证成功，给出验证结果。 
+
+效果在：
+
+http://localhost:8080/javaWeb_war_exploded/jsp/code

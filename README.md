@@ -45,3 +45,11 @@ http://localhost:8080/javaWeb_war_exploded/jsp/file.jsp
 效果在：
 
 http://localhost:8080/javaWeb_war_exploded/jsp/code
+
+## 作业五
+
+完成课堂上所演示单位在线web聊天室程序 集成验证码功能能私聊
+
+效果在：
+
+http://localhost:8080/javaWeb_war_exploded/jsp/ChatRoomLoginServlet
